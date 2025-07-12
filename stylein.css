@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: #111;
+  color: #fff;
+}
+
+main {
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border-bottom: 1px solid #333;
+  background: #020024;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.epic-logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.right-menu {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-blue {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+.btn-login {
+  background: none;
+  border: none;
+  color: white;
+}
+
+h1 {
+  font-size: 32px;
+  margin: 30px 20px;
+}
+
+.main-content {
+  display: flex;
+  gap: 40px;
+}
+
+.left-section img {
+  width: 600px;
+  border: 2px solid #333;
+}
+
+.video-controls {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.video-controls button {
+  font-size: 18px;
+  padding: 6px 12px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  cursor: pointer;
+}
+
+.preview-thumb {
+  width: 100px;
+  border: 2px solid #333;
+}
+
+.right-section {
+  max-width: 300px;
+}
+
+.side-logo {
+  width: 100%;
+}
+
+.price-box {
+  margin-top: 20px;
+}
+
+.discount {
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.price .original {
+  text-decoration: line-through;
+  margin-right: 10px;
+  color: #999;
+}
+
+.promo-time {
+  font-size: 12px;
+  color: #aaa;
+  margin-top: 5px;
+}
+
+.buy-btn,
+.cart-btn,
+.wishlist-btn {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: red;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.cart-btn {
+  background-color: #333;
+}
+
+.wishlist-btn {
+  background-color: #111;
+  border: 1px solid #444;
+}
+
+.info-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.info-table td {
+  padding: 6px 0;
+}
+
+.description {
+  margin-top: 40px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.tags {
+  margin-top: 15px;
+}
+
+.tags span {
+  background-color: #222;
+  padding: 6px 12px;
+  margin-right: 10px;
+  border-radius: 4px;
+}
